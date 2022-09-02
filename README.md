@@ -29,15 +29,15 @@ Run these commands to install the dependencies and set up the database:
 ```console
 $ bundle install
 $ bundle exec rake db:migrate db:seed
-```
+```tions more in the next lesson. For
+now, let's review the project's file structure and talk about how our code is
+organized.
 
 > **Note**: Running `rake db:migrate db:seed` on one line will run the
 > migrations first, then the seed file. It's a nice way to save a few
 > keystrokes!
 
-We'll be working with the models and migrations more in the next lesson. For
-now, let's review the project's file structure and talk about how our code is
-organized.
+We'll be working with the models and migra
 
 ## Separation of Concerns with File Structure
 
